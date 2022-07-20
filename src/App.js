@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Loading from './Loading'
 import Tours from './Tours'
 
+const url = 'http://localhost:3004/tourdata'
 
 function App() {
   const [loading, setLoading] = useState(true)
